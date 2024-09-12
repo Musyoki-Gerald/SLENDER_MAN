@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-bar {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 50px;
+  text-align: center;
+}
+
+.nav-bar button {
+  background-color: red; /* Red color for warning */
+  color: white;
+  padding: 30px 50px; /* Increase padding for a bigger button */
+  font-size: 20px; /* Increase font size */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar button:hover {
+  background-color: Grey; /* Grey on hover */
+}
+ul li {
+  display: inline-block;
+  font-size: 30px;
+  margin: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold; /* Corrected from font weight to font-weight */
+}
+
+li button {
+  background: none;
+  border: white;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+}
+
+li button:hover {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Corrected from background-attachement to background-attachment */
+}
+.nm {
+  font-size: 80px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-top: 15%;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  text-shadow: 3px 1px #000000B0;
+}
+/*  */
+.sp {
+  width: 500px;
+  margin-top: 5%;
+}
+
+.pl {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Corrected font-family syntax */
+}
+
+.bn {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+/* Footer styles */
+.ft {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

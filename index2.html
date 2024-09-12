@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLENDER MAN</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+</head>
+<body>
+    <div class="nav-bar">
+        <ul>
+            <li>WELCOME TO MY WORLD</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <p class="nm"><img class="sp" src="slender2.jpg" alt="Slender Man"></p>
+        <div class="login-form">
+            <h2>JOIN ME</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">FULL NAMES:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="dob">DATE OF BIRTH:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label for="gender">GENDER:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">MALE</option>
+                    <option value="female">FEMALE</option>
+                    <option value="other">OTHER</option>
+                </select><br><br>
+
+                <label for="country">COUNTRY:</label>
+                <input type="text" id="country" name="country" required><br><br>
+
+                <label for="phone">PHONE NUMBER:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="email">EMAIL:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <button class="bn" onclick="window.location.href='index.html'" style="margin-bottom: 100px;">LEAVE</button>
+
+    <footer class="ft black-footer"></footer>
+</body>
+</html>
